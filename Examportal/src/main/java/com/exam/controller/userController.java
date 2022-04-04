@@ -43,6 +43,7 @@ public class userController {
     public User getUser(@PathVariable("userName") String uname)
     {
         System.out.println(uname);
+
         return this.userService.getUser(uname);
     }
 
