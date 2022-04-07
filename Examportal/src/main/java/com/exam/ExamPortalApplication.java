@@ -19,24 +19,5 @@ public class ExamPortalApplication implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
         System.out.println("Project Running");
-//        User user=new User();
-//        user.setfName("Vaubhav");
-//        user.setLname("Agarwal");
-//        user.setEmail("agarwalvaibhav041@gmail.com");
-//        user.setPassword("ABC@123");
-//        user.setUserName("avaibhav54");
-//        user.setPhone("7906544082");
-//        user.setProfile("default.png");
-//
-//        Role role = new Role();
-//        role.setRoleId(44L);
-//        role.setRoleName("ADMIN");
-//        Set<userRole> userRoleSet=new HashSet<>();
-//        userRole userRole=new userRole();
-//        userRole.setRole(role);
-//        userRole.setUser(user);
-//        userRoleSet.add(userRole);
-//        User user1 = this.userService.createUser(user,userRoleSet);
-//        System.out.println(user1);
     }
 }
